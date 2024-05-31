@@ -1,0 +1,141 @@
+@import url('../css/tscss1.css');
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+     
+     box-sizing: border-box;
+}
+
+
+body,html
+{
+  overflow-x: hidden;
+}
+
+  
+  p{
+    font-size:var(--tsfs-26 ) ;
+  }
+ 
+  h1{
+    font-size:var(--tsfs-90) ;
+  }
+  h2{
+    font-size:var(--tsfs-70) ;
+  }
+ 
+
+ 
+/* section1 css begain */
+
+
+.tsc-sidebar {
+  position: absolute;
+    top: 0px;
+    height: 683px;
+    left: 0px;
+    max-width: 612px;
+    width: 0px;
+    z-index: 3;
+    background-color: var(--bs-color-6);
+
+    transition:  0.7s ease-in-out;
+    overflow: hidden;
+  }
+  .tsc-sidebar.active {
+    left: 0;
+  }
+  .tsc-sidebar ul li {
+    padding: 10px 0;
+  }
+  .tsc-sidebar ul li a {
+    color: #fff;
+  }
+  .navbar-nav {
+    margin-left: auto;
+  }
+  .navbar-toggler {
+    
+    padding-left: 104px !important;
+    padding-top: 61px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    border: 0px !important;
+  }
+
+.navbar-dark .navbar-toggler-icon {
+    width: 30px; 
+    height: 30px;
+}
+.navbar {
+    position: relative;
+    display: flex;
+    align-items: flex-start !important;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0px; 
+    padding-bottom: 0px;
+}
+
+.tsc-sin_More{
+  padding-top: calc(var(--screen-height)* 0.25);
+}
+.tsc-logo {
+  padding-right: 42px;
+  padding-top: 37px;
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0 0 !important;
+}
+
+.tsc-navbarContainer{
+    width: 100vw;
+    background-image: url('../vectors_svg/nav_background.jpg');
+    background-size: cover; /* Ensure the background image covers the entire navbar */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat;
+    height: 688px;
+}
+.tsc-exitMenu_icon{
+    cursor: pointer;
+    height: 56px;
+    width: 56px;
+    padding-left: 205px;
+    padding-top: 145px;
+    padding-right: 0px;
+    padding-bottom:0px;
+    border: 0px !important;
+    background-image:url('../vectors_svg/Menu_exit_icom.svg') ;
+     /* Ensure the background image covers the entire navbar */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat;
+    
+}
+
+a{
+  text-decoration: none;
+  text-wrap: nowrap !important;
+  font-weight: 500 !important;
+  color: black !important;
+  font-size: larger;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.tsc-ulMenu{
+  padding: 108px 87px;
+}
+
+.tsc-social_Icons
+{
+  width: 15px;
+  height: 15px;
+}
+/* Section1 css end */

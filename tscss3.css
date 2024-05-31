@@ -1,0 +1,43 @@
+@import url('tscss1.css');
+
+
+ 
+@media (min-width: 1127px) and (max-width:3000px) {  
+    /* height Imgs */ 
+    :root{
+        --tsfs-scale: 0.75 !important;
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width:1126.98px) {  
+
+    :root{
+        --tsfs-scale: 0.55 !important;
+    }
+   
+}
+
+
+
+@media (min-width:200px) and (max-width:769.98px) {
+    :root{
+        --tsfs-scale: 0.45 !important;
+    }
+   
+}
+
+/* sm */
+
+/* Xs */
+
+
+
+
+    
+
+
+  
+  
+  
+
